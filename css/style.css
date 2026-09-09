@@ -58,3 +58,26 @@ p.h3-size {
     width: 100%;
     grid-gap: 30px;
 }
+
+@media (max-width: 769px){
+    .cst-custom-row {
+        display: block;
+    }
+
+    .cst-custom-row > div {
+        min-width: 100%;
+    }
+
+    .cst-contact-box {
+        display: block;
+    }
+
+    .cst-contact-box > .cst-ci-box {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .cst-contact-box > .cst-ci-box:last-child {
+        margin-bottom: 0;
+    }
+}
