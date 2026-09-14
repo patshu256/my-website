@@ -81,3 +81,7 @@ p.h3-size {
         margin-bottom: 0;
     }
 }
+
+.cst-4 img {
+    border-radius: 100%;
+}
